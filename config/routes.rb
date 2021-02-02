@@ -8,5 +8,5 @@ Rails.application.routes.draw do
     get	'/students/:id/deactivate', to: 'students#deactivate'
     get	'/students/:id/activate', to:	'students#activate'
     post '/students', to: 'students#create'
-    get	'/student/:id', to: 'student#show'
+    get	'/students/:id', to: 'students#show'
   end 
