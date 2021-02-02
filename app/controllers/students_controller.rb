@@ -26,7 +26,7 @@ class StudentsController < ApplicationController
     
     def activate_student
       @student = Student.find(params[:id])
-      @student.active = true
+      @student.active = !@student.active
       @student.save
     end 
    
