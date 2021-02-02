@@ -30,10 +30,10 @@ class StudentsController < ApplicationController
       @student.save
     end 
    
-    def deactivate_student
-      @student = Student.find(params[:id])
-      @student.active = false
-      @student.save
-    end 
+    # def deactivate_student
+    #   @student = Student.find(params[:id])
+    #   @student.active = false
+    #   @student.save
+    # end 
 
 end
